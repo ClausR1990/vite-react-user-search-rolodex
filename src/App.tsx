@@ -51,7 +51,7 @@ const App = () => {
                         placeholder='Search...'
                     />
                     {users && users?.length > 0 ? (
-                        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-12'>
+                        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-12'>
                             {users.slice(0, 8).map((user) => (
                                 <div
                                     className='p-6 bg-slate-600 rounded-lg border border-slate-200'
